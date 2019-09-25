@@ -1,0 +1,21 @@
+{{ define "temp.tmpl" }}
+<html> 
+<head> 
+<title>Events Table</title> 
+<link rel="stylesheet" href="/css/temp.css">
+</head>
+<body>
+<table>
+  <thead>
+    <tr>
+      <th scope="col" colspan="1">EVENTS</th>
+      <th scope="col">TIME</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{ .val }}
+  </tbody>
+</table>
+</body>
+</html>
+{{ end }}
